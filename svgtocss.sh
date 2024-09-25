@@ -45,7 +45,9 @@ genAll() {
     b=$ODIR/b$name
     w=$ODIR/w$name
     # write black piece file
-    inkscape --export-type=svg --export-filename=$b $svg
+#   inkscape --export-type=svg --export-filename=$b $svg
+    # optimise svg, often divides size by 4
+    scour -i $svg -o $b --remove-metadata
     # write white file by updating gradients in rgba (ff = white)
     sed "s/$GradStart/$wGradStart/g ; s/$GradEnd/$wGradEnd/g" $b > $w
 
