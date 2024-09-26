@@ -8,7 +8,7 @@ GradEnd=856a02
 wGradStart=ffffff
 wGradEnd=999999ff
 pieces=(+b.svg  b.svg  g.svg  k.svg  +l.svg  l.svg  +n.svg  n.svg  +p.svg  p.svg  +r.svg  r.svg  +s.svg  s.svg
-  q.svg) # chess eclusive
+  cn.svg q.svg) # chess eclusive
 
 # lishogi css: piece.pawn.sente
 declare -A lishogicss=(["+b"]="horse" ["b"]="bishop" ["g"]="gold" ["k"]="king" ["+l"]="promotedlance" ["l"]="lance" ["+n"]="promotedknight" ["n"]="knight" ["+p"]="tokin" ["p"]="pawn" ["r"]="rook" ["+r"]="dragon" ["+s"]="promotedsilver" ["s"]="silver" ["q"]="queen")
@@ -61,14 +61,14 @@ genAll() {
     B64b=$(base64 -w 0 $b)
 
     # lichess
-    chessPieces=("p" "r" "pb" "b" "q" "k")
+    chessPieces=("p" "r" "cn" "b" "q" "k")
     if [[ ${chessPieces[*]} =~ ${name%.svg} ]] then
       echo $key
       cp=$p
-      if [[ $key = "+b" ]]; then cp=knight; fi # Use shogi 马 not 桂
+      if [[ $key = "cn" ]]; then cp=knight; fi # Use shogi 马 not 桂
       emitcss "piece.$cp.white" $B64w >> $LICHESSCSS
       emitcss "piece.$cp.black" $B64b >> $LICHESSCSS
-      if [[ $p = "q" ]] then break; fi
+      if [[ $p = "q" || $p = "cn" ]] then continue; fi
     fi
 
     # lishogi
