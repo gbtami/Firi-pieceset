@@ -68,8 +68,7 @@ genAll() {
       if [[ $key = "cn" ]]; then cp=knight; fi # Use shogi 马 not 桂
       emitcss "piece.$cp.white" $B64w >> $LICHESSCSS
       emitcss "piece.$cp.black" $B64b >> $LICHESSCSS
-      if [[ $key = "q" || $key = "cn" ]] then break; fi
-    fi
+      if [[ $key = "q" || $key = "cn" ]] then continue; fi fi
     echo $p
 
     # lishogi

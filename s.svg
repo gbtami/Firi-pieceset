@@ -24,11 +24,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="245.99999"
-     inkscape:cy="24.499999"
+     inkscape:zoom="4.0000002"
+     inkscape:cx="107.99999"
+     inkscape:cy="120.37499"
      inkscape:window-width="1531"
-     inkscape:window-height="2065"
+     inkscape:window-height="2156"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -128,13 +128,13 @@
              id="path10-4-0"
              style="fill:url(#linearGradient4);fill-opacity:1;stroke-width:2.11830401;stroke-dasharray:none" />
           <path
-             d="m 301.43359,70.298828 c -0.18862,9.785603 3.24979,18.079521 13.99805,17.738281 10.74826,0.34124 14.18472,-7.952678 13.99609,-17.738281 -0.75439,10.65296 -5.41398,13.520531 -13.99609,14.158203 -8.5821,-0.637672 -13.24365,-3.505243 -13.99805,-14.158203 z"
+             d="m 301.43359,70.298828 c -0.18862,9.785719 3.2186,17.668102 13.99805,17.732422 10.77946,-0.06432 14.18472,-7.946703 13.99609,-17.732422 -0.75439,10.65296 -5.41398,13.520531 -13.99609,14.158203 -8.5821,-0.637672 -13.24365,-3.505243 -13.99805,-14.158203 z"
              fill="#cccccc"
              stroke-width="0.800004"
              id="path3-30-8"
-             style="fill:url(#linearGradient4);fill-opacity:1;stroke:#000000;stroke-width:1.41225389;stroke-dasharray:none"
+             style="fill:url(#linearGradient4);fill-opacity:1;stroke:#000000;stroke-width:1.41225;stroke-dasharray:none"
              inkscape:path-effect="#path-effect21"
-             inkscape:original-d="m 301.43368,70.298865 c -0.1894,9.82592 3.27748,18.147217 14.13056,17.733025 l 0,-3.564589 C 306.89715,83.84933 302.19197,81.006815 301.43368,70.298865 Z"
+             inkscape:original-d="m 301.43368,70.298865 c -0.1894,9.82592 3.24595,17.733025 14.13056,17.733025 V 84.467301 C 306.89715,83.84933 302.19197,81.006815 301.43368,70.298865 Z"
              sodipodi:nodetypes="cccc"
              transform="matrix(1.4999456,0,0,1.4999456,-145.19818,-34.248461)" />
         </g>
