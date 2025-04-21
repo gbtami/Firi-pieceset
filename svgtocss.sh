@@ -1,4 +1,6 @@
 #!/bin/sh
+# 1. Generate opposite color (white-silver) from (gold-black)
+# 2. generate css overrides for various websites
 
 # Can run sed on svg files to update colors
 # hardcoded values in inkscape
